@@ -10,13 +10,22 @@ import CoffeeShopProject from "./pages/CoffeeShopProject";
 
 const queryClient = new QueryClient();
 
-const App = () => {
-  return (
-    <main style={{ padding: "40px", textAlign: "center" }}>
-      <h1>My Portfolio 🚀</h1>
-      <p>React + Vite + Tailwind working correctly</p>
-    </main>
-  );
-};
+const App = () => (
+  <QueryClientProvider client={queryClient}>
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/project/shopping-mall" element={<ShoppingMallProject />} />
+          <Route path="/project/coffee-shop" element={<CoffeeShopProject />} />
+          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </TooltipProvider>
+  </QueryClientProvider>
+);
 
 export default App;

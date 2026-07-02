@@ -21,6 +21,13 @@ const internships: TimelineItem[] = [
     period: 'Dec 2025 - Jan 2026',
     description: 'Created user interfaces and prototypes in Figma, conducted user research, and improved design workflows.',
   },
+  {
+    title: 'Web Developer Intern',
+    organization: 'CodeAlpha',
+    period: 'Jan 2026 -  April 2026',
+    description: 'Developed responsive and user-centric web applications using React, collaborating closely with the UI/UX team to translate design concepts into consistent, high-quality user interfaces.',
+  },
+
 ];
 
 const education: TimelineItem[] = [

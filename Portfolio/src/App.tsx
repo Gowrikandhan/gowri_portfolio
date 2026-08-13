@@ -7,6 +7,9 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ShoppingMallProject from "./pages/ShoppingMallProject";
 import CoffeeShopProject from "./pages/CoffeeShopProject";
+import FlowBoardProjectManager from "./pages/FlowBoardProjectManager";
+import SyncSpace from './pages/SyncSpace';
+import NexusSocialPlatform from './pages/NexusSocialPlatform';
 
 const queryClient = new QueryClient();
 
@@ -20,6 +23,10 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/project/shopping-mall" element={<ShoppingMallProject />} />
           <Route path="/project/coffee-shop" element={<CoffeeShopProject />} />
+          <Route path="/project/flowboard-project-manager" element={<FlowBoardProjectManager />}/>
+          <Route path="/project/syncspace" element={<SyncSpace />}/>
+          <Route path="/project/nexus-social-platform" element={<NexusSocialPlatform />}/>
+
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

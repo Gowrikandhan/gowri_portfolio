@@ -41,6 +41,18 @@ const education: TimelineItem[] = [
 
 const certifications: TimelineItem[] = [
   {
+    title: 'Prompt Engineering: Shaping Better AI Responses',
+    organization: 'IBM SkillsBuild',
+    period: '2026',
+    description: 'Explored Prompt Engineering techniques for designing effective prompts, refining AI responses, and achieving more accurate, relevant, and consistent outputs.',
+  },
+  {
+    title: 'Full Stack Development',
+    organization: 'TNS India Foundation',
+    period: '2026',
+    description: 'Comprehensive training in end-to-end application development, server-side programming, database integration, responsive interfaces, and modern software development practices.',
+  },
+  {
     title: '30 Days MasterClass in UI/UX Design',
     organization: 'NoviTech R&D Private Limited',
     period: '2025',

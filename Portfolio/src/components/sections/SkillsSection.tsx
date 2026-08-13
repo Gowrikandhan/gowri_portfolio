@@ -21,6 +21,8 @@ import {
   Terminal,
   ShieldCheck,
   Layers3,
+  Type,
+  LayoutTemplate,
 } from 'lucide-react';
 
 interface Skill {
@@ -39,6 +41,7 @@ const skills: Skill[] = [
   { name: 'Angular', icon: Layers3 },
   { name: 'Node.js', icon: Server },
   { name: 'React', icon: Atom },
+  { name: 'Spring Boot', icon: Server },
   { name: 'Postman API', icon: ShieldCheck },
   { name: 'SQL', icon: Database },
   { name: 'PostgreSQL', icon: HardDrive },
@@ -46,10 +49,14 @@ const skills: Skill[] = [
   { name: 'GitHub', icon: Github },
   { name: 'UI Design', icon: Layout },
   { name: 'UX Design', icon: Users },
-  { name: 'Figma', icon: Figma },
-  { name: 'Sketch', icon: PenTool },
+  { name: 'Design Systems', icon: LayoutTemplate },
+  { name: 'Visual Theory', icon: Eye },
+  { name: 'Color Theory', icon: Palette },
+  { name: 'Typography', icon: Type },
   { name: 'Wireframing', icon: Eye },
   { name: 'Prototyping', icon: MousePointer },
+  { name: 'Figma', icon: Figma },
+  { name: 'Sketch', icon: PenTool },
   { name: 'Adobe Express', icon: Film },
   { name: 'Canva', icon: Palette },
 ];
